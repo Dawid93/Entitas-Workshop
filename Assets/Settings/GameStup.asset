@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b23edb7473a442c1bb4291a2c72237ec, type: 3}
+  m_Name: GameStup
+  m_EditorClassIdentifier: 
+  player: {fileID: 6064254526855395372, guid: b0795af32d994442cacf6794ef9a204a, type: 3}
+  laser: {fileID: 5540172770278981804, guid: 526fcca64dc0145c9a1a91019a4d5c0c, type: 3}
+  rotationSpeed: 180
+  movementSpeed: 5
+  laserSpeed: 5
+  asteroidSpeed: 0.3
+  bigs:
+  - {fileID: 2187868365232911817, guid: c084a4015d2484ca4a79a60d0a0572e6, type: 3}
+  - {fileID: 445648942592735341, guid: 9761c00e73c79434497cb01126892212, type: 3}
+  meds:
+  - {fileID: 7410633165638171838, guid: 8d9b81600232340a281af11cd16f3821, type: 3}
+  - {fileID: 4314743550174469498, guid: b41f0e4c8b0f3466eab6b24d59c74297, type: 3}
+  smalls:
+  - {fileID: 5702861144833443019, guid: 4722a3a6035444cf3a5d62c1b1bb7859, type: 3}
+  - {fileID: 6041681988650988635, guid: e0cc195ef51474b068443e90b758096c, type: 3}
+  tinys:
+  - {fileID: 8001316772521613890, guid: 9780ccdf421744195962722153ae9e8f, type: 3}
+  - {fileID: 8034856415667334821, guid: d5f24cdd0c5ee4370802fd8dc04638f7, type: 3}
